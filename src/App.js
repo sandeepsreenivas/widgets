@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import Accordion from './components/Accordion';
+//import React, { useState } from 'react';
+//import Accordion from './components/Accordion';
+import React from 'react';
 import Search from './components/Search';
-import Dropdown from './components/Dropdown';
-import Translate from './components/Translate';
+//import Dropdown from './components/Dropdown';
+//import Translate from './components/Translate';
 
-const options = [
+/*const options = [
     {
         label: 'The Color Red',
         value: 'red'
@@ -18,9 +19,9 @@ const options = [
         value: 'blue'
     }
 
-]
+]*/
 
-const items = [
+/*const items = [
     {
         title: 'What is React ?',
         content: 'React is JavaScript Front End Framework'
@@ -33,11 +34,11 @@ const items = [
         title: 'What is JavaScript',
         content: 'Client-Side Programming Language'
     }
-]
+]*/
 
 export default () => {
 
-    const [selected, setSelected] = useState(options[0]);
+    //const [selected, setSelected] = useState(options[0]);
 
     return (
         <div>
